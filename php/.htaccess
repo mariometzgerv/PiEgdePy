@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !(favicon.ico|\.svg|\.)$
+RewriteRule (.*) index.php
